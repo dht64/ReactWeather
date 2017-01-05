@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"error",
+				"errorMessage〔variable〕"
+			],
+			[
+				"unde",
+				"undefined〔keyword〕"
+			],
+			[
+				"render",
+				"renderError"
+			],
+			[
+				"Err",
+				"ErrorModal"
+			],
+			[
+				"top",
+				"top-bar-left"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"cla",
+				"className"
+			],
+			[
 				"err",
 				"errorMessage"
 			],
@@ -486,34 +514,6 @@
 			[
 				"scu",
 				"subscription"
-			],
-			[
-				"Reci",
-				"RecipeStartComponent"
-			],
-			[
-				"RecipeS",
-				"RecipeStartComponent"
-			],
-			[
-				"Sh",
-				"ShoppingListComponent"
-			],
-			[
-				"Rec",
-				"RecipesComponent"
-			],
-			[
-				"In",
-				"Ingredient"
-			],
-			[
-				"s",
-				"shopping-list"
-			],
-			[
-				"Sho",
-				"ShoppingListService"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": "app/app.jsx",
 			"settings":
 			{
-				"buffer_size": 539,
+				"buffer_size": 710,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -532,7 +532,7 @@
 			"file": "app/components/Nav.jsx",
 			"settings":
 			{
-				"buffer_size": 483,
+				"buffer_size": 1349,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -541,7 +541,7 @@
 			"file": "app/components/WeatherForm.jsx",
 			"settings":
 			{
-				"buffer_size": 490,
+				"buffer_size": 564,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -550,7 +550,7 @@
 			"file": "webpack.config.js",
 			"settings":
 			{
-				"buffer_size": 790,
+				"buffer_size": 1148,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -559,7 +559,25 @@
 			"file": "app/components/Weather.jsx",
 			"settings":
 			{
-				"buffer_size": 1092,
+				"buffer_size": 1885,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/styles/app.scss",
+			"settings":
+			{
+				"buffer_size": 179,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/components/ErrorModal.jsx",
+			"settings":
+			{
+				"buffer_size": 966,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -586,7 +604,7 @@
 			"file": "app/components/About.jsx",
 			"settings":
 			{
-				"buffer_size": 295,
+				"buffer_size": 545,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -595,7 +613,7 @@
 			"file": "app/components/Examples.jsx",
 			"settings":
 			{
-				"buffer_size": 177,
+				"buffer_size": 420,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -604,7 +622,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 641,
+				"buffer_size": 846,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -622,7 +640,7 @@
 			"file": "app/components/WeatherMessage.jsx",
 			"settings":
 			{
-				"buffer_size": 369,
+				"buffer_size": 393,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -631,7 +649,7 @@
 			"file": "app/components/Main.jsx",
 			"settings":
 			{
-				"buffer_size": 388,
+				"buffer_size": 471,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -701,7 +719,8 @@
 		"/C/xampp/htdocs/reactWeather",
 		"/C/xampp/htdocs/reactWeather/app",
 		"/C/xampp/htdocs/reactWeather/app/api",
-		"/C/xampp/htdocs/reactWeather/app/components"
+		"/C/xampp/htdocs/reactWeather/app/components",
+		"/C/xampp/htdocs/reactWeather/app/styles"
 	],
 	"file_history":
 	[
@@ -850,6 +869,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"openWeatherMap",
+			"h3",
 			"port",
 			"WeatherMessage",
 			"WeatherForm",
@@ -975,8 +996,6 @@
 			"Supplier",
 			"supplier",
 			"Supplier",
-			"supplier",
-			"Supplier",
 			"supplier"
 		],
 		"highlight": true,
@@ -995,7 +1014,7 @@
 	"groups":
 	[
 		{
-			"selected": 10,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -1004,46 +1023,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 539,
+						"buffer_size": 710,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								481,
-								481
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/components/Nav.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 483,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								78,
-								78
+								417,
+								417
 							]
 						],
 						"settings":
@@ -1061,33 +1049,66 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/components/WeatherForm.jsx",
+					"buffer": 1,
+					"file": "app/components/Nav.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 490,
+						"buffer_size": 1349,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								164,
-								164
+								159,
+								159
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/components/WeatherForm.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								301,
+								301
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -1096,15 +1117,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 790,
+						"buffer_size": 1148,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								786,
-								786
+								930,
+								930
 							]
 						],
 						"settings":
@@ -1114,11 +1135,11 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 153.0,
+						"translation.x": 15.0,
+						"translation.y": 204.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -1127,15 +1148,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1092,
+						"buffer_size": 1885,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								775,
-								775
+								836,
+								836
 							]
 						],
 						"settings":
@@ -1144,12 +1165,42 @@
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"tab_size": 2,
+							"translate_tabs_to_spaces": false,
 							"typescript_plugin_format_options":
 							{
 								"convertTabsToSpaces": false,
 								"indentSize": 2,
 								"tabSize": 2
 							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 357.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/styles/app.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40,
+								40
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1159,7 +1210,38 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
+					"file": "app/components/ErrorModal.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 966,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								753,
+								753
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 153.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "app/api/openWeatherMap.jsx",
 					"semi_transient": false,
 					"settings":
@@ -1171,25 +1253,26 @@
 						"selection":
 						[
 							[
-								387,
-								387
+								538,
+								538
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "example-arrow-functions.js",
 					"semi_transient": false,
 					"settings":
@@ -1215,84 +1298,87 @@
 						"translation.y": 102.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/components/About.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 295,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								250,
-								250
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "app/components/Examples.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 177,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								92,
-								92
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
 					"buffer": 9,
-					"file": "package.json",
+					"file": "app/components/About.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 641,
+						"buffer_size": 545,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								211,
-								211
+								241,
+								241
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/components/Examples.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 846,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								412,
+								412
 							]
 						],
 						"settings":
@@ -1307,11 +1393,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 12,
 					"file": "server.js",
 					"semi_transient": false,
 					"settings":
@@ -1337,24 +1423,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 13,
 					"file": "app/components/WeatherMessage.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 369,
+						"buffer_size": 393,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								220,
-								220
+								312,
+								312
 							]
 						],
 						"settings":
@@ -1367,24 +1453,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 14,
 					"file": "app/components/Main.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 388,
+						"buffer_size": 471,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								284,
-								284
+								390,
+								390
 							]
 						],
 						"settings":
@@ -1392,13 +1478,14 @@
 							"auto_complete": false,
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 11,
 					"type": "text"
 				}
 			]
@@ -1525,7 +1612,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 158.0,
+	"side_bar_width": 171.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -34,8 +34,6 @@ var ErrorModal = React.createClass({
 		//$('#error-modal').foundation('open');
 	},
 	render: function() {
-		
-		
 		return (
 			<div> 
 			</div>
